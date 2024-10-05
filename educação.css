@@ -1,0 +1,50 @@
+.educacao {
+    min-height: 100vh;
+    padding: 5rem 9%;
+    background-color: #242424; 
+}
+
+.educacao h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #f1fc92;
+    margin-bottom: 2rem;
+}
+
+.educacao-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.curso {
+    background-color: #333; 
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.curso h2 {
+    font-size: 2.5rem;
+    color: #f1fc92;
+}
+
+.curso p {
+    color: #a1a0a0;
+}
+
+.curso span {
+    display: block; 
+    color: #f1fc92;
+    margin-top: 3.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #242424;
+    color: #a1a0a0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
